@@ -28,10 +28,6 @@
 
   <!-- android -->
   <platform name="android">
-
-    <framework src="com.google.android.gms:play-services-plus:+" />
-    <framework src="com.google.android.gms:play-services-identity:+" />
-
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="GooglePlus">
         <param name="android-package" value="nl.xservices.plugins.GooglePlus" />
@@ -46,6 +42,7 @@
     </config-file>
 
     <source-file src="src/android/GooglePlus.java" target-dir="src/nl/xservices/plugins"/>
+    <source-file src="src/android/google-play-services.jar" target-dir="libs"/>
   </platform>
 
   <!-- ios -->
