@@ -2,6 +2,7 @@
 //#import <GooglePlus/GooglePlus.h>
 //#import <Foundation/Foundation.h>
 #import <GoogleSignIn/GoogleSignIn.h>
+#import <Cordova/CDV.h>
 
 @interface GooglePlus : CDVPlugin<GIDSignInDelegate, GIDSignInUIDelegate>
 
